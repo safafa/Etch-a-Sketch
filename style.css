@@ -5,7 +5,6 @@ html {
   background-color: cornsilk;
 }
 .square:hover {
-  background-color: black;
 }
 .grid {
   display: grid;
@@ -22,8 +21,6 @@ html {
     max-width: 300px;
     min-height: 300px;
   }
-}
-.grid:hover {
 }
 #container {
   display: flex;
