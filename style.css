@@ -1,17 +1,29 @@
+html {
+  background-color: whitesmoke;
+}
 .square {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  font-size: 30px;
-  background-color: blue;
+  background-color: cornsilk;
+}
+.square:hover {
+  background-color: black;
 }
 .grid {
   display: grid;
-  grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  grid-template-rows: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-  background-color: red;
+  width: 500px;
+  height: 500px;
+  margin: 2rem auto;
+  border: 2px solid var(--border);
   grid-gap: 1px;
-  padding: 1px;
+  background-color: black;
+}
+
+@media (max-width: 450px) {
+  .grid {
+    max-width: 300px;
+    min-height: 300px;
+  }
+}
+.grid:hover {
 }
 #container {
   display: flex;
