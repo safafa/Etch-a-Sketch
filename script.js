@@ -43,7 +43,7 @@ container.appendChild(Div);
 return container;
 }
 var title = document.createElement("h4");
-var text = document.createTextNode('The ultimate grid');
+var text = document.createTextNode('Fun color grid');
 document.body.appendChild(title);
 document.body.appendChild(sizeButton());
 Grid = createGrid(16);
